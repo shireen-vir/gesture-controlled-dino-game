@@ -40,7 +40,6 @@ while True:
     cv2.putText(frame, "Pinch to Jump", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
     cv2.imshow("Gesture Controlled Dino Game", frame)
 
-    # Exit the program if 'q' is pressed
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
